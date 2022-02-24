@@ -8,7 +8,6 @@ const TimeAgo = ({ timestamp }) => {
     const timePeriod = formatDistanceToNow(date);
     timeAgo = `${timePeriod} ago`;
   }
-  console.log(timeAgo)
 
   return (
     <span title={timestamp}>
